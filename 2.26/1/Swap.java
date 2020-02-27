@@ -5,6 +5,6 @@ public class Swap{
 		int tmp=a;
 		a=b;
 		b=tmp;
-		System.out.println("Hellow World!");
+		System.out.println(a+","+b);
 	}
 }
