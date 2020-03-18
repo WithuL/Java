@@ -3,20 +3,60 @@ import java.util.Arrays;
 public class TestDemo {
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7,8};
-        max(arr);
-//        printArr(out);
-//        String newArr = Arrays.toString(arr);
-//        System.out.println(newArr);
-//        System.out.println(Arrays.toString(arr));
-        arr[0] = 10;
-        int[][] a = {{1,2,3},{4,5,6},{7,8,9}};
-        for(int row = 0; row < a.length; row++) {
-            for(int col = 0; col < a[0].length; col++) {
-                System.out.print(a[row][col]);
+        int[] arr = {9,1,5,4,6,8,3,7};
+        bubble(arr);
+        Arrays.toString(arr);
+        System.out.println(toString(arr));
+    }
+
+    //二分查找
+    public static int binarySearch(int[] arr,int target) {
+        int left = arr[0];
+        int right = arr[arr.length-1];
+        while(left <= right) {
+            int mid = (left + right)/2;
+            if(target > arr[mid]) {
+                left = mid +1;
+            }else if (target < arr[mid]) {
+                right = mid - 1;
+            }else {
+                return mid;
             }
-            System.out.println();
         }
+        return -1;
+    }
+    //判断数组是否有序
+    public static boolean isSorted(int[] arr) {
+        for(int i = 1 ;i < arr.length; i++) {
+            if(arr[i] < arr[i-1]) {
+                return false;
+            }
+        }
+        return true ;
+    }
+
+    // 冒泡排序
+    public static void bubble(int[] arr) {
+        for(int bound = 0; bound < arr.length; bound++) {
+            for(int i = arr.length - 1; i > bound; i--) {
+                if(arr[bound] > arr[i]) {
+                    int tmp = arr[bound];
+                    arr[bound] = arr[i];
+                    arr[i] = tmp;
+                }
+            }
+        }
+        printArr(arr);
+    }
+
+    //求数组的平均值
+    public static double avg(int[] arr) {
+        int sum = 0;
+        for(int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        double avg = sum/arr.length;
+        return avg;
     }
 
     //找到数组中最大的元素
@@ -37,13 +77,15 @@ public class TestDemo {
             ret[i] = arr[i];
         }
         return ret;
-
     }
 
     public static String toString(int[] arr) {  //把数组变成字符串
-         String ret = "[" ;
+        String ret = "[" ;
         for(int i = 0; i<arr.length; i++ ) {
             ret += arr[i];
+            if( i != arr.length-1 ) {
+                ret += ",";
+            }
         }
         ret += "]" ;
         return ret;
@@ -56,6 +98,8 @@ public class TestDemo {
         }
         return ret;
     }
+
+    //打印数组
     public static void printArr(int[] arr) {
         for(int i = 0;i < arr.length; i++) {
             System.out.println( arr[i] );
