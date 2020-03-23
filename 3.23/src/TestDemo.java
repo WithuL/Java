@@ -151,3 +151,27 @@ public class TestDemo {
         System.out.println(myArrayList.size());
     }
 }
+
+
+    //单链表长度
+    public int size(Node a){
+        int count = 0;
+        Node cur = this.head;
+        while(cur != null) {
+            count++;
+            cur = cur.next;
+        }
+        return size;
+    }
+
+    //查找值
+    public boolean contains(int key) {
+        Node cur = this.head;
+        while(cur != null){
+            if(cur.date == key) {
+                return true;
+            }
+            cur = cur.next;
+        }
+        return false;
+    }
