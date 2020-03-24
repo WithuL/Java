@@ -93,16 +93,19 @@ public class MyLinkedList {
     };
     //删除所有值为key的节点
     public void removeAllKey(int key) {
-        Node cur = this.head;
         Node prev = this.head;
-        while(cur != null ){
-            if(cur.data == key ){
+        Node cur = prev.next;
+        while(cur != null) {
+            if(cur.data == key) {
                 prev.next = cur.next;
                 cur = cur.next;
-            }else{
-                prev = cur;
+            }else {
+                prev = prev.next;
                 cur = cur.next;
             }
+        }
+        if(this.head.data == key) {
+            this.head = this.head.next;
         }
     };
     //得到单链表的长度
