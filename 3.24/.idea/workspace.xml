@@ -24,23 +24,14 @@
       <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
               <folding>
                 <element signature="e#88#89#0" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Practice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Practice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -74,7 +65,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="261" />
+    <option name="x" value="260" />
     <option name="y" value="55" />
     <option name="width" value="1450" />
     <option name="height" value="855" />
@@ -97,12 +88,6 @@
               <item name="3.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="3.24" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.24" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MyLinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -118,7 +103,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../3.23/src/TestDemo.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,11 +192,14 @@
       <workItem from="1585009776095" duration="9342000" />
       <workItem from="1585019479302" duration="726000" />
       <workItem from="1585032737112" duration="4078000" />
+      <workItem from="1585053678398" duration="30000" />
+      <workItem from="1585104129591" duration="31000" />
+      <workItem from="1585104533309" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14146000" />
+    <option name="totallyTimeSpent" value="14262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -219,7 +207,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32831737" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -227,7 +215,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32968536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -277,6 +265,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3.23/src/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3.23/src/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3.23/src/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
@@ -315,24 +370,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Date.java" />
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
           <folding>
             <element signature="e#88#89#0" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
