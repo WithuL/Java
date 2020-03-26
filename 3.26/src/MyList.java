@@ -126,6 +126,29 @@ public class MyList {
         this.head = null;
     }
 
+
+    //倒数第K个节点
+    public Node FindKthToTail(int k) {
+        if(k <= 0 || k > size()) {
+            return null;
+        }
+        Node fast = this.head;
+        Node slow = this.head;
+        //1、让fast先走k-1步
+
+        //2、让两个引用 一起走  直到 fast.next == null
+        // slow 所指的位置就是倒数第K个节点
+        for(int i = 0; i < k-1; ++i) {
+            fast = fast.next;
+        }
+        while(fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+
+    }
+
     public static void main(String[] args) {
         MyList mylist = new MyList();
         mylist.addFirst(4);
