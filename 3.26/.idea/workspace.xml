@@ -15,8 +15,8 @@
       <file leaf-file-name="MyList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+            <state relative-caret-position="562">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
               <folding>
                 <element signature="e#84#85#0" expanded="true" />
                 <element signature="e#116#117#0" expanded="true" />
@@ -52,7 +52,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="185" />
-    <option name="y" value="71" />
+    <option name="y" value="70" />
     <option name="width" value="1450" />
     <option name="height" value="855" />
   </component>
@@ -61,9 +61,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,6 +85,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,15 +178,15 @@
       <workItem from="1585185914717" duration="1417000" />
       <workItem from="1585203787415" duration="1096000" />
       <workItem from="1585218294779" duration="5742000" />
+      <workItem from="1585270493996" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13970000" />
+    <option name="totallyTimeSpent" value="13989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="57" width="1160" height="684" extended-state="0" />
-    <editor active="true" />
+    <frame x="148" y="56" width="1160" height="684" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -225,6 +225,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2774">
@@ -282,9 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../3.23/src/List.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../3.24/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -305,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="562">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />

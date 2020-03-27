@@ -109,7 +109,7 @@ public class MyLinkedList {
         }
     };
     //得到单链表的长度
-    public int size() {
+		public int size() {
         Node cur = this.head;
         int count = 0;
         while (cur != null) {
