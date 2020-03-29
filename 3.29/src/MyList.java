@@ -141,4 +141,92 @@ public class MyList {
 
         */
     };
+
+    //合并有序链表
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+
+        ListNode head = new ListNode(0);
+
+        ListNode p = head;
+
+        while(l1 != null && l2 != null) {
+
+            if( l1.val <= l2.val) {
+
+                p.next = l1;
+
+                l1 = l1.next;
+
+            }else {
+
+                p.next = l2;
+
+                l2 = l2.next;
+
+            }
+
+            p = p.next;
+
+        }
+
+        p.next = l1 == null ? l2 : l1;
+
+        return head.next;
+
+    }
+    //链表倒数第K个节点
+    public ListNode FindKthToTail(ListNode head,int k) {
+        if( k<=0 || head == null) {
+            return null;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while(k-1 > 0) {
+            if(fast.next != null){
+                fast = fast.next;
+                k--;
+            }else{
+                return null;
+            }
+        }
+        while(fast.next != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+
+    //反转一个链表
+    public ListNode reverseList(ListNode head) {
+        ListNode left = null;
+        ListNode mid = head;
+        while(mid != null) {
+            ListNode right = mid.next;
+            mid.next = left;
+            left = mid;
+            mid = right;
+        }
+        return left;
+    }
+
+    //删除链表中所有给定值val的节点
+    if(head == null) {
+        return null;
+    }
+    ListNode cur = head.next;
+    ListNode pre = head;
+        while(cur != null) {
+        if(cur.val == val) {
+            pre.next = cur.next;
+            cur = cur.next;
+        }else {
+            pre = pre.next;
+            cur = cur.next;
+        }
+    }
+        if(head.val == val) {
+        head = head.next;
+    }
+        return head;
+
 }
