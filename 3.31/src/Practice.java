@@ -29,7 +29,7 @@ class Solution1 {
             return old;
         }else if (n == 2 ) {
             return prev;
-        }else{
+        }else{zz
             for(int i = 3; i <= n; i++) {
                 last = old + prev;
                 old = prev;
