@@ -1,3 +1,4 @@
+package aili;
 
 //父类
 class Shape {

@@ -1,4 +1,4 @@
-package dili.mili;
+package mili;
 
 class Person {
     protected String name;
