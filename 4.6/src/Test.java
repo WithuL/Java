@@ -23,7 +23,7 @@ public class Test {
         System.out.println("登陆成功");
     };
 }
-
+.
 class UserError extends Exception {
     public UserError(String message) {
         super(message);
