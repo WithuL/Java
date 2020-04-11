@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03aac39a-83fa-45b9-98be-41223078e649" name="Default" comment="" />
+    <list default="true" id="155fe905-c7eb-4d87-9080-29f0a3cd3b75" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +15,8 @@
       <file leaf-file-name="Practice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="128" column="2" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="2" />
+            <state relative-caret-position="640">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -53,23 +53,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="4.9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4.9" type="462c0819:PsiDirectoryNode" />
+              <item name="4.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="4.9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4.9" type="462c0819:PsiDirectoryNode" />
+              <item name="4.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4.10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -140,18 +140,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03aac39a-83fa-45b9-98be-41223078e649" name="Default" comment="" />
-      <created>1586414581358</created>
+      <changelist id="155fe905-c7eb-4d87-9080-29f0a3cd3b75" name="Default" comment="" />
+      <created>1586500434995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586414581358</updated>
-      <workItem from="1586414585088" duration="3822000" />
-      <workItem from="1586500419739" duration="16000" />
+      <updated>1586500434995</updated>
+      <workItem from="1586500438551" duration="551000" />
+      <workItem from="1586501615569" duration="18000" />
+      <workItem from="1586501702068" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3838000" />
+    <option name="totallyTimeSpent" value="1170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -195,15 +196,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2432">
-          <caret line="128" column="2" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="2" />
+        <state relative-caret-position="684">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="128" column="2" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="2" />
+        <state relative-caret-position="874">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
