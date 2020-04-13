@@ -15,6 +15,6 @@ public class TestWrapperClass {
         //(自动装箱拆箱)
         Integer a = 10;
         int b = a;
-        
+
     }
 }
