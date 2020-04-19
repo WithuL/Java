@@ -196,4 +196,121 @@ class MinStack {
  * int param_2 = obj.pop();
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
- */
+ */class MyCircularDeque {
+    int[] myCircularDeque;
+    int front = 0;
+    int rear = 0;
+    int size = 0;
+    int length = 0;
+    /** Initialize your data structure here. Set the size of the deque to be k. */
+    public MyCircularDeque(int k) {
+        myCircularDeque = new int[k];
+        length = k;
+    }
+
+    /** Adds an item at the front of Deque. Return true if the operation is successful. */
+    public boolean insertFront(int value) {
+        if(isFull()) {
+            return false;
+        }
+        front = (front-1 + length ) % length;
+        myCircularDeque[front] = value;
+        size++;
+        return true;
+    }
+
+    /** Adds an item at the rear of Deque. Return true if the operation is successful. */
+    public boolean insertLast(int value) {
+        if(isFull()) {
+            return false;
+        }
+        myCircularDeque[rear] = value;
+        rear = (rear+1) % length;
+        size++;
+        return true;
+    }
+
+    /** Deletes an item from the front of Deque. Return true if the operation is successful. */
+    public boolean deleteFront() {
+        if(isEmpty()) {
+            return false;
+        }
+        front = (front + 1) % length;
+        size--;
+        return true;
+    }
+
+    /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
+    public boolean deleteLast() {
+        if(isEmpty()) {
+            return false;
+        }
+        rear = (rear - 1 + length) % length;
+        size--;
+        return true;
+    }
+
+    /** Get the front item from the deque. */
+    public int getFront() {
+        if(isEmpty()) {
+            return -1;
+        }
+        return myCircularDeque[front];
+    }
+
+    /** Get the last item from the deque. */
+    public int getRear() {
+        if(isEmpty()){
+            return -1;
+        }
+        return myCircularDeque[(rear - 1 + length) % length];
+    }
+
+    /** Checks whether the circular deque is empty or not. */
+    public boolean isEmpty() {
+        if(size == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    /** Checks whether the circular deque is full or not. */
+    public boolean isFull() {
+        if(size == length) {
+            return true;
+        }
+        return false;
+    }
+}
+
+/**
+ * Your MyCircularDeque object will be instantiated and called as such:
+ * MyCircularDeque obj = new MyCircularDeque(k);
+ * boolean param_1 = obj.insertFront(value);
+ * boolean param_2 = obj.insertLast(value);
+ * boolean param_3 = obj.deleteFront();
+ * boolean param_4 = obj.deleteLast();
+ * int param_5 = obj.getFront();
+ * int param_6 = obj.getRear();
+ * boolean param_7 = obj.isEmpty();
+ * boolean param_8 = obj.isFull();
+ */class Solution {
+    public boolean backspaceCompare(String S, String T) {
+        if(newB(S).equals(newB(T))){
+            return true;
+        }
+        return false;
+    }
+    public String newB(String T) {
+        Stack<Character> stack = new Stack<>();
+        char[] t = T.toCharArray();
+        for(char x : t) {
+            if(x != '#'){
+                stack.push(x);
+            }else if( !stack.empty() ) {
+                stack.pop();
+            }
+        }
+        return String.valueOf(stack);
+    }
+}
