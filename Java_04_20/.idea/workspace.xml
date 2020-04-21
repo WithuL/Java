@@ -15,7 +15,7 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1648">
+            <state relative-caret-position="1900">
               <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="317">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="e#90#91#0" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
@@ -60,9 +60,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="471" />
-    <option name="y" value="197" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="66" />
     <option name="width" value="1450" />
     <option name="height" value="835" />
   </component>
@@ -71,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,17 +84,10 @@
               <item name="Java_04_20" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java_04_20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_04_20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -101,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4.18" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -182,14 +176,15 @@
       <updated>1587387584717</updated>
       <workItem from="1587387587095" duration="6093000" />
       <workItem from="1587437193362" duration="1424000" />
+      <workItem from="1587449341837" duration="1251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7517000" />
+    <option name="totallyTimeSpent" value="8768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="77" y="53" width="1160" height="668" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -205,7 +200,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18619792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495637" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -215,11 +210,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +224,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
@@ -252,7 +268,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1648">
+        <state relative-caret-position="1900">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -262,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="317">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="e#90#91#0" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
